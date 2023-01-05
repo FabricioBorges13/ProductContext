@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProductContext.Domain.Extensions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -31,6 +32,12 @@ namespace ProductContext.Domain.Features.Products
         {
             if (ManufacturingDate.GetValueOrDefault() >= DueDate.GetValueOrDefault())
                 throw new Exception("Data de fabricação deve ser menor que a data de vencimento");
+        }
+
+        public void ValidateCNPJ()
+        {
+            if (!Validate.IsCnpj(CNPJProvider))
+                throw new Exception("CNPJ inválido");
         }
     }
 }
