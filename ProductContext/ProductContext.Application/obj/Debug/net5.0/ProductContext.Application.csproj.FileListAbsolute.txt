@@ -1,0 +1,15 @@
+C:\Users\USER\source\repos\ProductContext\ProductContext.Application\bin\Debug\net5.0\ProductContext.Application.deps.json
+C:\Users\USER\source\repos\ProductContext\ProductContext.Application\bin\Debug\net5.0\ProductContext.Application.dll
+C:\Users\USER\source\repos\ProductContext\ProductContext.Application\bin\Debug\net5.0\ProductContext.Application.pdb
+C:\Users\USER\source\repos\ProductContext\ProductContext.Application\bin\Debug\net5.0\ProductContext.Domain.dll
+C:\Users\USER\source\repos\ProductContext\ProductContext.Application\bin\Debug\net5.0\ProductContext.Domain.pdb
+C:\Users\USER\source\repos\ProductContext\ProductContext.Application\obj\Debug\net5.0\ProductContext.Application.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\ProductContext\ProductContext.Application\obj\Debug\net5.0\ProductContext.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\ProductContext\ProductContext.Application\obj\Debug\net5.0\ProductContext.Application.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\ProductContext\ProductContext.Application\obj\Debug\net5.0\ProductContext.Application.AssemblyInfo.cs
+C:\Users\USER\source\repos\ProductContext\ProductContext.Application\obj\Debug\net5.0\ProductContext.Application.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\ProductContext\ProductContext.Application\obj\Debug\net5.0\ProductContext.Application.csproj.CopyComplete
+C:\Users\USER\source\repos\ProductContext\ProductContext.Application\obj\Debug\net5.0\ProductContext.Application.dll
+C:\Users\USER\source\repos\ProductContext\ProductContext.Application\obj\Debug\net5.0\refint\ProductContext.Application.dll
+C:\Users\USER\source\repos\ProductContext\ProductContext.Application\obj\Debug\net5.0\ProductContext.Application.pdb
+C:\Users\USER\source\repos\ProductContext\ProductContext.Application\obj\Debug\net5.0\ref\ProductContext.Application.dll

@@ -1,0 +1,12 @@
+C:\Users\USER\source\repos\ProductContext\ProductContext.Domain\bin\Debug\net5.0\ProductContext.Domain.deps.json
+C:\Users\USER\source\repos\ProductContext\ProductContext.Domain\bin\Debug\net5.0\ProductContext.Domain.dll
+C:\Users\USER\source\repos\ProductContext\ProductContext.Domain\bin\Debug\net5.0\ProductContext.Domain.pdb
+C:\Users\USER\source\repos\ProductContext\ProductContext.Domain\obj\Debug\net5.0\ProductContext.Domain.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\ProductContext\ProductContext.Domain\obj\Debug\net5.0\ProductContext.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\source\repos\ProductContext\ProductContext.Domain\obj\Debug\net5.0\ProductContext.Domain.AssemblyInfoInputs.cache
+C:\Users\USER\source\repos\ProductContext\ProductContext.Domain\obj\Debug\net5.0\ProductContext.Domain.AssemblyInfo.cs
+C:\Users\USER\source\repos\ProductContext\ProductContext.Domain\obj\Debug\net5.0\ProductContext.Domain.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\ProductContext\ProductContext.Domain\obj\Debug\net5.0\ProductContext.Domain.dll
+C:\Users\USER\source\repos\ProductContext\ProductContext.Domain\obj\Debug\net5.0\refint\ProductContext.Domain.dll
+C:\Users\USER\source\repos\ProductContext\ProductContext.Domain\obj\Debug\net5.0\ProductContext.Domain.pdb
+C:\Users\USER\source\repos\ProductContext\ProductContext.Domain\obj\Debug\net5.0\ref\ProductContext.Domain.dll
