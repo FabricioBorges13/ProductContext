@@ -21,7 +21,7 @@ namespace ProductContext.Application.Features.Products
         public async Task<bool> AddAsync(ProductAddCommand productAdd)
         {
             var entity = _mapper.Map<Product>(productAdd);
-            entity.ValidateManufacturingDate();
+            entity.ValidateProduct();
             return await _repository.AddAsync(entity);
         }
 
@@ -46,7 +46,7 @@ namespace ProductContext.Application.Features.Products
         public async Task<bool> UpdateAsync(ProductUpdateCommand productUpdate)
         {
             var entity = _mapper.Map<Product>(productUpdate);
-            entity.ValidateManufacturingDate();
+            entity.ValidateProduct();
             return await _repository.UpdateAsync(entity);
         }
 
