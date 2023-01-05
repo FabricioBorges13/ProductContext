@@ -28,6 +28,12 @@ namespace ProductContext.Domain.Features.Products
             Situation = false;
         }
 
+        public void ValidateProduct()
+        {
+            ValidateManufacturingDate();
+            ValidateCNPJ();
+        }
+
         public void ValidateManufacturingDate()
         {
             if (ManufacturingDate.GetValueOrDefault() >= DueDate.GetValueOrDefault())
@@ -36,7 +42,7 @@ namespace ProductContext.Domain.Features.Products
 
         public void ValidateCNPJ()
         {
-            if (!Validate.IsCnpj(CNPJProvider))
+            if (!String.IsNullOrEmpty(CNPJProvider) && !Validate.IsCnpj(CNPJProvider))
                 throw new Exception("CNPJ inválido");
         }
     }

@@ -41,6 +41,7 @@ namespace ProductContext.Application.Testes.Features.Products
             var productAddCommand = new ProductAddCommand { };
             productAddCommand.ManufacturingDate = DateTime.Now;
             productAddCommand.DueDate = DateTime.Now.AddDays(1);
+            productAddCommand.CNPJProvider = "07256912000178";
             _repository.Setup(x => x.AddAsync(It.IsAny<Product>())).Returns(Task.FromResult(true));
 
             //Action
@@ -59,6 +60,7 @@ namespace ProductContext.Application.Testes.Features.Products
             var productUpdateCommand = new ProductUpdateCommand { };
             productUpdateCommand.ManufacturingDate = DateTime.Now;
             productUpdateCommand.DueDate = DateTime.Now.AddDays(1);
+            productUpdateCommand.CNPJProvider = "07256912000178";
             _repository.Setup(x => x.UpdateAsync(It.IsAny<Product>())).Returns(Task.FromResult(true));
 
             //Action
@@ -173,6 +175,7 @@ namespace ProductContext.Application.Testes.Features.Products
             var productUpdateCommand = new ProductUpdateCommand { };
             productUpdateCommand.ManufacturingDate = DateTime.Now;
             productUpdateCommand.DueDate = DateTime.Now.AddDays(1);
+            productUpdateCommand.CNPJProvider = "07256912000178";
             _repository.Setup(x => x.UpdateAsync(It.IsAny<Product>()));
 
             //Action

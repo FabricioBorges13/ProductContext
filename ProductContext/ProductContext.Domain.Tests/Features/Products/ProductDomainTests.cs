@@ -94,10 +94,10 @@ namespace ProductContext.Domain.Tests.Features.Products
             _product.CNPJProvider = "74.451.742/0001-70";
 
             //Action            
-            _product.ValidateCNPJ();
+            Action validate = () => _product.ValidateCNPJ();
 
             //Assert
-            _product.Situation.Should().BeTrue();
+            validate.Should().NotThrow<Exception>();
         }
 
         [Test]
@@ -107,10 +107,10 @@ namespace ProductContext.Domain.Tests.Features.Products
             _product.CNPJProvider = "07256912000178";
 
             //Action            
-            _product.ValidateCNPJ();
+            Action validate = () =>  _product.ValidateCNPJ();
 
             //Assert
-            _product.Situation.Should().BeTrue();
+            validate.Should().NotThrow<Exception>();
         }
 
         [Test]
@@ -120,10 +120,21 @@ namespace ProductContext.Domain.Tests.Features.Products
             _product.CNPJProvider = "01234567891011";
 
             //Action            
-            Action validate = () =>  _product.ValidateCNPJ();
+            Action validate = () => _product.ValidateCNPJ();
 
             //Assert
             validate.Should().Throw<Exception>();
+        }
+
+        [Test]
+        public void Domain_Product_ValidateCNPJ_Null_Should_Be_Ok()
+        {
+
+            //Action            
+            Action validate = () => _product.ValidateCNPJ();
+
+            //Assert
+            validate.Should().NotThrow<Exception>();
         }
     }
 }
